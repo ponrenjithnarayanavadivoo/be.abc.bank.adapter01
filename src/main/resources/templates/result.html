@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1" />
+<link href="css/styles.css" rel="stylesheet" />
+<title>ABC Bank Application</title>
+</head>
+
+<body>
+	<h2><u> Customer Information Details </u></h2>
+	<h4>
+		Name : <span th:text="${thymName}"></span> <br><br> SurName : <span
+			th:text="${thymSurName}"></span> <br>
+	</h4>
+	<table>
+		<tr th:each="element : ${thymTranInfoMap}">
+			<h3>
+				Account : <span th:text="${element.key.balance}"></span> &nbsp;
+				Available Balance :<span th:text="${element.key.accountNumber}"></span>
+			</h3>
+
+			<table>
+				<tr>
+					<b>
+						<th>Transaction ID</th>
+						<th>amount</th>
+						<th>Transaction Time</th>
+					</b>
+				</tr>
+				<tr th:each="trans : ${element.value}">
+					<td th:text="${trans.tranNumber}"></td>
+					<td th:text="${trans.amount}"></td>
+					<td th:text="${trans.transDate}"></td>
+				</tr>
+			</table>
+		</tr>
+	</table>
+	<body>
+</html>
