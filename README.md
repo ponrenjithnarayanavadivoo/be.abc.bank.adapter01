@@ -22,8 +22,14 @@ mvn clean install
 
 #### Execution
 ```
-java -jar  accounts-0.0.1.jar
+java -jar  adapter-0.0.1.jar
 ```
 
 #### To check the application deployed successfully on your local machine 
 http://localhost:9080/
+
+###  Configuration
+
+The api is centralized on GitHub public repository and the settings.xml in the root folder needs to be configured on your local machine.
+
+
