@@ -37,8 +37,4 @@ http://localhost:9080/
 
 The api is centralized on GitHub public repository and the settings.xml in the root folder needs to be configured on your local machine.
 
-### Architectural Diagram
-
-The simple architectural flow can be found here
-https://go.gliffy.com/go/publish/13522698
 
