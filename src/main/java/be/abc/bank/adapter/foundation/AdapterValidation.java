@@ -1,7 +1,5 @@
 package be.abc.bank.adapter.foundation;
 
-import java.util.regex.Pattern;
-
 import org.apache.commons.lang3.StringUtils;
 
 /**

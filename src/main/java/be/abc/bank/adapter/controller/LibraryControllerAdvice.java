@@ -8,11 +8,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.client.HttpClientErrorException;
-import org.springframework.web.servlet.ModelAndView;
 
 import be.abc.bank.adapter.Exception.AccountNotFoundException;
 import be.abc.bank.adapter.Exception.CustomerNotFoundException;
-import be.abc.bank.adapter.foundation.AdapterConstants;
 
 /**
  * Controller class to handle all the exceptions

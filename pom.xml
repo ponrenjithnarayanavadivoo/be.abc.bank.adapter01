@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>bank.adapter.service</groupId>
 	<artifactId>adapter</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>adapter</name>
 	<description>Front end for bank related service</description>
 	<properties>
@@ -50,7 +50,7 @@
 		<dependency>
 			<groupId>be.abc.bank.transaction</groupId>
 			<artifactId>transaction-api</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>0.0.1</version>
 		</dependency>
 
 		<dependency>
