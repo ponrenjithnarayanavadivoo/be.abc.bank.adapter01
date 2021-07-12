@@ -9,6 +9,11 @@ You need the following installed and available in your $PATH:
 * Java 8
 * Apache maven 3.0.4 or greater
 
+### Architectural Diagram
+
+The simple architectural flow can be found here
+https://go.gliffy.com/go/publish/13522698
+
 #### REST API's 
 
 [Account-Service](https://github.com/ponrenjithnarayanavadivoo/be.abc.bank.accounts-api)
@@ -32,4 +37,8 @@ http://localhost:9080/
 
 The api is centralized on GitHub public repository and the settings.xml in the root folder needs to be configured on your local machine.
 
+### Architectural Diagram
+
+The simple architectural flow can be found here
+https://go.gliffy.com/go/publish/13522698
 
